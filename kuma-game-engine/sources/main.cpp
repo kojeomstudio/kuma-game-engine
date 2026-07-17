@@ -1,12 +1,8 @@
-﻿// kuma-game-engine.cpp : Defines the entry point for the application.
-//
-
-#include "main.h"
-
-using namespace std;
+﻿#include "core/app/KApplication.h"
 
 int main()
 {
-	cout << "Hello CMake." << endl;
-	return 0;
+    kuma::core::KApplication App;
+    App.Run();
+    return 0;
 }
