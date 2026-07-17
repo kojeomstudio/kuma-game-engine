@@ -43,6 +43,14 @@
 build/
 Build/
 build-*/
+out/
+
+# Visual Studio / IDE state
+.vs/
+.vscode/
+*.slnx
+*.vcxproj.user
+slnx.sqlite
 
 # CMake generated files
 CMakeFiles/
