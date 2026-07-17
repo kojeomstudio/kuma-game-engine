@@ -1,3 +1,6 @@
 [submodule "third_party/glfw"]
 	path = third_party/glfw
 	url = git@github.com:kojeomstudio/glfw.git
+[submodule "third_party/json"]
+	path = third_party/json
+	url = git@github.com:kojeomstudio/json.git
